@@ -1,9 +1,8 @@
 import { CruffleFlavor, NavItem } from './types';
 
 export const NAV_ITEMS: NavItem[] = [
-  { label: 'Shop', href: '#' },
-  { label: 'Our Story', href: '#story' },
   { label: 'Flavors', href: '#lineup' },
+  { label: 'Our Story', href: '#story' },
   { label: 'Locations', href: '#locations' },
 ];
 

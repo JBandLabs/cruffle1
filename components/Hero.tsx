@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
             variant="accent"
             onClick={() => document.getElementById('lineup')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Shop Flavors
+            Flavor Drops
           </Button>
         </div>
 
