@@ -16,16 +16,16 @@ const Hero: React.FC = () => {
             Shop Flavors
           </Button>
         </div>
-        
+
         <div className="relative">
           <div className="absolute -top-10 -right-10 w-64 h-64 bg-mint rounded-full blur-3xl opacity-30"></div>
           <div className="absolute -bottom-10 -left-10 w-72 h-72 bg-lavender rounded-full blur-3xl opacity-30"></div>
-          
+
           <div className="relative z-10 bg-white p-4 rounded-3xl shadow-2xl rotate-3 transform hover:rotate-0 transition-transform duration-500">
             {/* Updated with a high-res, reliable croffle image that captures the flaky texture and golden finish */}
-            <img 
-              src="https://images.unsplash.com/photo-1662112441014-e2293427f717?q=80&w=1200&auto=format&fit=crop" 
-              alt="Signature Royal Strawberry Cruffle" 
+            <img
+              src="/assets/hero-cruffle.jpg"
+              alt="Handmade Signature Biscoff Cruffle"
               className="rounded-2xl w-full h-[450px] object-cover shadow-inner"
             />
             <div className="absolute -bottom-6 -right-6 bg-bubblegum text-white p-6 rounded-2xl shadow-xl animate-bounce-slow">
