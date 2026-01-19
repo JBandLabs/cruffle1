@@ -12,7 +12,10 @@ const Hero: React.FC = () => {
           <p className="text-xl text-gray-600 mb-10 max-w-lg mx-auto md:mx-0 font-medium">
             Handmade treats by an 11-year-old visionary. Experience the magic of perfectly balanced sweetness.
           </p>
-          <Button variant="accent">
+          <Button
+            variant="accent"
+            onClick={() => document.getElementById('lineup')?.scrollIntoView({ behavior: 'smooth' })}
+          >
             Shop Flavors
           </Button>
         </div>
