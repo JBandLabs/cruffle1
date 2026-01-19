@@ -4,7 +4,7 @@ export const NAV_ITEMS: NavItem[] = [
   { label: 'Shop', href: '#' },
   { label: 'Our Story', href: '#story' },
   { label: 'Flavors', href: '#lineup' },
-  { label: 'Locations', href: '#' },
+  { label: 'Locations', href: '#locations' },
 ];
 
 export const FLAVORS: CruffleFlavor[] = [
