@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cruffle Queen | Handmade with Love</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Satisfy&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              bubblegum: '#FFB7C5',
+              mint: '#E0F2F1',
+              lavender: '#E1BEE7',
+              honey: '#FFF9C4',
+              offwhite: '#FDFBF7',
+              darkpink: '#E8A0AF'
+            },
+            fontFamily: {
+              sans: ['Quicksand', 'sans-serif'],
+              script: ['Satisfy', 'cursive']
+            },
+            animation: {
+              'bounce-slow': 'bounce 3s infinite',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #FDFBF7;
+      }
+      .bouncy-hover {
+        transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }
+      .bouncy-hover:hover {
+        transform: scale(1.05);
+      }
+      .bouncy-hover:active {
+        transform: scale(0.95);
+      }
+      .cruffle-card:hover .product-img {
+        transform: scale(1.1);
+      }
+      /* Custom Scrollbar for a premium feel */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #FDFBF7;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #FFB7C5;
+        border-radius: 10px;
+      }
+      .glass-nav {
+        background: rgba(253, 251, 247, 0.8);
+        backdrop-filter: blur(12px);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="font-sans text-gray-800 antialiased">
+    <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
